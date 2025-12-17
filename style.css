@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+    background-color: rgb(232, 235, 239);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background: white;
+    width: px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px gray;
+}
+
+.avtar{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
